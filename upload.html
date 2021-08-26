@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head></head>
+    <body>    
+    <h1>ANN based Churn Prediction Modelling</h1>
+    <h2>Upload Test Data</h2>
+        <form action = "/predict" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit" value = "Upload"/>
+        </form><br/><br/>
+        <ul>
+            <li>Upload data in CSV format. See the training data for an example.</li>
+            <li>The response will be a CSV dump with identifiable row information.</li>
+            <li>Based on training data the following metrics are observed. (approx)</li>
+            <ul>
+                <li>Accuracy ~ 85%</li>
+                <li>Recall ~ 50%</li>
+                <li>Precision ~ 67%</li>
+            </ul>
+        </ul>
+    </body>
+</html>
+        
